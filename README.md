@@ -45,6 +45,8 @@ Pick the row that matches your situation. Do the first column, then the second.
 
 ## Courses
 
+This section lists the main options. For prices, formats, and a pick for each goal, see the full comparison of the [best system design courses](https://github.com/design-gurus/best-system-design-courses).
+
 ### Interview preparation courses
 
 | Course | Provider | Best for |
@@ -468,7 +470,7 @@ Most engineers need four to eight weeks of steady study. Engineers with producti
 
 ### Which system design course should I buy?
 
-It depends on your level and how you learn. The [comparison of system design interview courses](https://www.designgurus.io/blog/best-system-design-interview-courses-2026?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=frequently-asked-questions) compares the main options side by side.
+It depends on your level and how you learn. The [comparison of system design interview courses](https://www.designgurus.io/blog/best-system-design-interview-courses-2026?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=frequently-asked-questions) compares the main options side by side. For a table of every course with its format, price, and free option, see [Best System Design Courses](https://github.com/design-gurus/best-system-design-courses).
 
 ## Contributing
 
