@@ -192,6 +192,7 @@ Learn these before you attempt interview problems. Each row gives one clear arti
 ### How to run the interview
 
 - [How to Design Any System: The 45-Minute Blueprint](https://www.designgurus.io/blog/how-to-design-any-system?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=interview-framework-and-cheat-sheets) **Free**: what to do in each part of the hour.
+- [The 7-step method, on video](https://www.youtube.com/watch?v=N3r-Z6_IGTM) **Free**: the Grokking framework explained in five minutes.
 - [Interview framework](https://github.com/design-gurus/grokking-system-design/blob/main/cheat-sheets/interview-framework.md) **Free**: the seven steps, with time budgets.
 - [How to gather requirements](https://www.designgurus.io/blog/how-to-gather-requirements-in-system-design-interviews?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=interview-framework-and-cheat-sheets) **Free**: the questions to ask in the first five minutes.
 - [Back-of-the-envelope estimation](https://www.designgurus.io/blog/back-of-the-envelope-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=interview-framework-and-cheat-sheets) **Free**: how to size storage, bandwidth, and servers quickly.
@@ -219,7 +220,7 @@ Work through the easy problems first. Each one teaches a pattern that the harder
 
 | Problem | Walkthrough | Main pattern |
 |---------|-------------|--------------|
-| URL shortener (TinyURL) | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-tinyurl.md), [blog version](https://www.designgurus.io/blog/url-shortening?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Hashing and ID generation |
+| URL shortener (TinyURL) | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-tinyurl.md), [blog version](https://www.designgurus.io/blog/url-shortening?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty), [video](https://www.youtube.com/watch?v=_TsJizByBvE) | Hashing and ID generation |
 | Unique ID generator | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-unique-id-generator.md) | Snowflake-style IDs |
 | Rate limiter | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-rate-limiter.md), [blog version](https://www.designgurus.io/blog/grokking-rate-limiters?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Token bucket and sliding window |
 | Typeahead autocomplete | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-typeahead-autocomplete.md) | Tries and precomputed results |
@@ -235,7 +236,7 @@ More warm-up problems: [10 beginner system design questions](https://www.designg
 | Twitter | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-twitter.md) | Feed fan-out |
 | Instagram | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-instagram.md), [blog version](https://www.designgurus.io/blog/how-to-design-instagram-in-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Media storage and feeds |
 | News feed | [Blog walkthrough](https://www.designgurus.io/blog/design-social-media-news-feed?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Push vs pull |
-| WhatsApp | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-whatsapp.md), [blog version](https://www.designgurus.io/blog/design-chat-application?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Persistent connections |
+| WhatsApp | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-whatsapp.md), [blog version](https://www.designgurus.io/blog/design-chat-application?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty), [video](https://www.youtube.com/watch?v=Va6EgMV9-7k) | Persistent connections |
 | YouTube | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-youtube.md), [blog version](https://www.designgurus.io/blog/design-video-streaming-platform?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Transcoding and CDN |
 | Dropbox | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-dropbox.md), [blog version](https://www.designgurus.io/blog/design-cloud-storage-service?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Chunking and sync |
 | Uber | [Repo walkthrough](https://github.com/design-gurus/grokking-system-design/blob/main/questions/design-uber.md), [blog version](https://www.designgurus.io/blog/ride-sharing-service?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-resources&utm_content=practice-problems-by-difficulty) | Geospatial indexing |
@@ -381,6 +382,22 @@ Follow a few of these to see how real systems change over time.
 - [Arpit Bhayani](https://www.youtube.com/@AsliEngineering) **Free**: paper and engineering blog breakdowns.
 - [CMU Database Group](https://www.youtube.com/@CMUDatabaseGroup) **Free**: university database lectures and talks.
 - [MIT 6.824](https://www.youtube.com/@6.824) **Free**: the distributed systems lectures.
+
+### Videos from Design Gurus
+
+Full interview walkthroughs:
+
+- [URL Shortener and Pastebin System Design](https://www.youtube.com/watch?v=_TsJizByBvE) (1 h 39 min) **Free**: a complete walkthrough of the first problem in Grokking the System Design Interview.
+- [Designing Messenger](https://www.youtube.com/watch?v=Va6EgMV9-7k) (1 h 43 min) **Free**: a chat system from requirements to storage and delivery.
+- [Grokking the System Design Interview: The 7-Step Method](https://www.youtube.com/watch?v=N3r-Z6_IGTM) (5 min) **Free**: the framework the course uses for every problem.
+
+Short explainers, most under five minutes:
+
+- Data: [How database sharding works](https://www.youtube.com/watch?v=5OvOpa57G6w), [7 database indexes](https://www.youtube.com/watch?v=zfmcL1gbgYk), [how SQL queries execute](https://www.youtube.com/watch?v=UnP5Vrdihgg), and [PostgreSQL vs MySQL](https://www.youtube.com/watch?v=XJhH1de4_oM).
+- Caching and messaging: [8 Redis patterns for system design interviews](https://www.youtube.com/watch?v=d1eBQyRXlr4), [6 distributed caching pitfalls](https://www.youtube.com/watch?v=W33QbFF2oPs), [Apache Kafka explained](https://www.youtube.com/watch?v=d2C2G3YWP8U), and [event-driven architecture patterns](https://www.youtube.com/watch?v=p7tgsc4ym08).
+- APIs and networking: [REST vs gRPC vs GraphQL](https://www.youtube.com/watch?v=y_ur1tUxlfQ), [RPC vs gRPC](https://www.youtube.com/watch?v=AsRWFvrbLJQ), [API architecture patterns](https://www.youtube.com/watch?v=nc7aTjT4LTE), [forward vs reverse proxy](https://www.youtube.com/watch?v=3A34I1fG4BM), [HTTP/1.1 vs HTTP/2 vs HTTP/3](https://www.youtube.com/watch?v=ef-jru5ofuA), and [how HTTPS works](https://www.youtube.com/watch?v=Y192TRjqaLU).
+- Security: [JWT vs OAuth 2.0](https://www.youtube.com/watch?v=zHAjzuhK3_0) and [how OAuth 2.0 works](https://www.youtube.com/watch?v=z7gQETX50ik).
+- Reliability and scale: [10 system design failure modes](https://www.youtube.com/watch?v=XzNe5QPDMUk) and [why a vibe-coded app crashes at 10,000 users](https://www.youtube.com/watch?v=JKaaIMHFOP0).
 
 ### Talks and long videos
 
