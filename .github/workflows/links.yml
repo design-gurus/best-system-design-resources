@@ -1,0 +1,28 @@
+name: Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # Weekly, to catch external link rot.
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  external-links:
+    name: External links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Medium, Netflix, Uber and a few other blogs refuse automated requests
+          # with 403 or 406, so those codes are accepted rather than reported.
+          args: "--no-progress --max-concurrency 4 --max-retries 3 --retry-wait-time 5 --accept 200,403,406,429 --exclude img.shields.io README.md"
+          # Report rot without failing the run, so a flaky site never blocks a change.
+          fail: false
